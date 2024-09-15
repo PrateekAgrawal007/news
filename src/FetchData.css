@@ -1,0 +1,60 @@
+.top-headlines-header {
+  font-size: 2.5rem; /* Increased font size for more impact */
+  font-weight: bold; /* Bold text for emphasis */
+  color: transparent; /* Make text color transparent */
+  background: linear-gradient(
+    135deg,
+    #007bff,
+    #00c6ff
+  ); /* Diagonal gradient for a dynamic look */
+  background-clip: text; /* Clip gradient to text */
+  -webkit-background-clip: text; /* Ensure compatibility with WebKit browsers */
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for better readability */
+  letter-spacing: 1px; /* Slight spacing between letters */
+  text-transform: uppercase; /* Uppercase for a bold look */
+}
+.news-card {
+  background-color: #ffffff; /* White background for cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 10px; /* Rounded corners */
+  max-width: 800px; /* Max width for large screens */
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.news-title {
+  font-size: 1.5rem; /* Larger font size for titles */
+  font-weight: 600; /* Semi-bold text */
+}
+
+.news-image {
+  max-width: 100%; /* Responsive image */
+  height: auto;
+  border-radius: 8px; /* Rounded corners for images */
+}
+
+.news-description {
+  font-size: 1rem; /* Standard font size */
+  color: #555555; /* Darker text color for readability */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Primary button color */
+  border: none; /* Remove default border */
+  color: #ffffff; /* White text color */
+  border-radius: 5px; /* Rounded button corners */
+  padding: 10px 20px; /* Padding for button */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Inline block for spacing */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}

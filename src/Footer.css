@@ -1,0 +1,28 @@
+.footer {
+  background-color: #343a40; /* Dark background color */
+}
+
+.footer h5 {
+  font-size: 1.25rem; /* Larger font size for better readability */
+}
+
+.footer .text-light {
+  color: #f8f9fa; /* Light text color for contrast */
+}
+
+.footer a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #fcbf49; /* Highlight color on hover */
+}
+
+.footer .fw-bold {
+  font-weight: 700; /* Bold font weight for emphasis */
+}
+
+.footer .fab {
+  margin-right: 5px; /* Space between icon and text */
+}

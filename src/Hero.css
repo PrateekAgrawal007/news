@@ -1,0 +1,20 @@
+.hero-section {
+  background-image: url("./asset/hero_background.jpg"); /* Replace with your own image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero-section h1,
+.hero-section h5 {
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section a {
+  transition: all 0.3s ease;
+}
+
+.hero-section a:hover {
+  background-color: #fcbf49;
+  color: #000;
+}
